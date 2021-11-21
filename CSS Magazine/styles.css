@@ -1,0 +1,204 @@
+.general {
+    position: relative;
+    width: 540px;
+    height: 750px;
+    background-image: url("fondo.jpg");
+    background-position: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 0;
+  }
+.selena{
+  position: relative;
+  z-index: 1;
+}
+.E{
+  position: absolute;
+  text-align: center;
+  font-size: 100px;
+  color: white;
+  margin-top: -930px;
+  margin-left: 0px;
+  z-index: 2;
+}
+.LLE{
+  position: absolute;
+  text-align: center;
+  font-size: 100px;
+  color: white;
+  margin-top: -930px;
+  margin-left: 140px;
+  z-index: 0;
+}
+.parrafo1, .parrafo2, .parrafo3, .parrafo4{
+  font-family: 'Poppins', sans-serif;
+  position: relative;
+  z-index: 2;
+}
+div.parrafo1 h2{
+  color: yellow;
+  font-size: 60px;
+  margin-top: -540px;
+  margin-left: 1px;
+  letter-spacing: -3px;
+}
+div.parrafo1 h3{
+  font-family: 'Playfair Display', serif;
+  color: white;
+  font-style: italic;
+  font-size: 12px;
+  margin-top: -65px;
+  margin-left: 35px;
+}
+div.parrafo1 h4{
+  color: white;
+  font-size: 25px;
+  margin-top: -10px;
+  margin-left: 35px;
+  letter-spacing: -2.5px;
+  line-height : 22px;
+}
+div.parrafo1 p{
+  color: white;
+  font-size: 18px;
+  margin-top: -30px;
+  margin-left: 35px;
+  letter-spacing: -1.5px;
+  line-height : 18px;
+}
+div.parrafo1 .now{
+  margin-top: -36px;
+  margin-left: 98px;
+  font-style: italic;
+}
+
+div.parrafo2 h2{
+  font-family: 'Playfair Display', serif;
+  color: yellow;
+  font-style: italic;
+  font-size: 15px;
+  margin-top: 85px;
+  margin-left: 35px;
+  letter-spacing: -1px;
+}
+div.parrafo2 h3{
+  color: white;
+  font-size: 30px;
+  margin-top: -10px;
+  margin-left: 35px;
+  letter-spacing: -1.5px;
+  line-height : 25px;
+}
+div.parrafo2 h4{
+  color: white;
+  font-size: 18px;
+  margin-top: -27px;
+  margin-left: 35px;
+  letter-spacing: -1.5px;
+  line-height : 15px;
+}
+div.parrafo2 p{
+  color: white;
+  font-size: 18px;
+  margin-top: -20px;
+  margin-left: 35px;
+  letter-spacing: -1.5px;
+  line-height : 15px;
+}
+
+.fecha{
+  font-family: 'Poppins', sans-serif;
+  position: relative;
+  z-index: 2;
+  font-size: 10px;
+  color: rgba(255, 255, 255, 0.582);
+  margin-left: 35px;
+  margin-top: 45px;
+  line-height : 10px;
+  letter-spacing: -0.5px;
+}
+
+div.parrafo3 h2{
+  color: yellow;
+  font-size: 16px;
+  margin-right: 20px;
+  margin-top: -530px;
+  line-height : 16px;
+  letter-spacing: -0.5px;
+  text-align: right;
+}
+div.parrafo3 h3{
+  font-family: 'Playfair Display', serif;
+  color: rgba(255, 255, 255, 0.781);
+  font-style: italic;
+  text-align: right;
+  font-size: 13px;
+  margin-right: 20px;
+  line-height : 12px;
+  letter-spacing: 0px;
+  margin-top: -13px;
+}
+div.parrafo3 p{
+  color: white;
+  text-align: right;
+  font-size: 23px;
+  margin-right: 20px;
+  line-height : 18px;
+  letter-spacing: 0px;
+  margin-top: -10px;
+}
+div.parrafo3 .well{
+  color: white;
+  text-align: right;
+  font-size: 23px;
+  margin-right: 10px;
+  line-height : 18px;
+  letter-spacing: 0px;
+  margin-top: -18px;
+}
+div.parrafo3 .cut{
+  margin-top: -46px;
+}
+div.parrafo3 .small{
+  font-size: 18px;
+  letter-spacing: -1px;
+  margin-top: -18px;
+}
+
+div.parrafo4 h2{
+  font-family: 'Playfair Display', serif;
+  color: yellow;
+  margin-right: 20px;
+  text-align: right;
+  font-size: 90px;
+  margin-top: 55px;
+}
+div.parrafo4 h3{
+  color: white;
+  margin-right: 20px;
+  text-align: right;
+  margin-top: -108px;
+  letter-spacing: -1px;
+}
+div.parrafo4 h4{
+  color: white;
+  margin-right: 20px;
+  text-align: right;
+  margin-top: -38px;
+  font-size: 38px;
+}
+div.parrafo4 .guide{
+  color: white;
+  margin-right: 20px;
+  text-align: right;
+  margin-top: -89px;
+  font-size: 25px;
+}
+div.parrafo4 p{
+  color: white;
+  margin-right: 20px;
+  text-align: right;
+  margin-top: -20px;
+  font-size: 15px;
+  line-height : 16px;
+}
