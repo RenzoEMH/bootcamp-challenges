@@ -1,5 +1,7 @@
 #CSS Flexbox Froggy
 
+![image](https://user-images.githubusercontent.com/56410444/143720332-7026ab90-52d2-40b9-8022-789f9c6407d1.png)
+
 1. justify-content: flex-end;
 2. justify-content: center;
 3. justify-content: space-around;
@@ -21,7 +23,7 @@
     justify-content: center;
     align-items: flex-end;
 14. order: 1;
-15. order: -3;
+15. order: -1;
 16. align-self: end;
 17. align-self: end;
     order: 1;
