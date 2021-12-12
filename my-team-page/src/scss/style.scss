@@ -1,0 +1,102 @@
+.team {
+  width: 80%;
+  margin: 0 auto;
+  background-color: #fafafa;
+  color: #000000;
+
+  &__details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  &__title {
+    font-family: "PT Serif", serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 48px;
+    letter-spacing: -0.045em;
+  }
+
+  &__description {
+    width: 280px;
+    margin: 0 auto;
+    font-family: "Poppins", sans-serif;
+
+    .team__subtitle {
+      text-transform: uppercase;
+      font-weight: 600;
+      font-size: 12px;
+      line-height: 27px;
+    }
+    .team__information {
+      font-weight: normal;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 27px;
+    }
+  }
+
+  &__crew {
+    display: flex;
+    flex-wrap: wrap;
+    height: 120vh;
+    gap: 50px 0;
+
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 24px;
+  }
+
+  &__footer {
+    display: flex;
+    justify-content: center;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #a9a9a9;
+    line-height: 17px;
+  }
+}
+
+.member {
+  &__profile {
+    display: flex;
+  }
+
+  &__photo {
+    width: 20vw;
+  }
+
+  &__role {
+    writing-mode: vertical-lr;
+    font-size: 8px;
+    line-height: 14px;
+    text-transform: uppercase;
+    font-weight: normal;
+  }
+
+  &--two,
+  &--five {
+    align-self: flex-end;
+  }
+}
+
+@media (max-width: 550px) {
+  .member {
+    &--two,
+    &--four,
+    &--six {
+      align-self: flex-end;
+      gap: 20px 0;
+    }
+    &--five {
+      align-self: unset;
+    }
+  }
+}
