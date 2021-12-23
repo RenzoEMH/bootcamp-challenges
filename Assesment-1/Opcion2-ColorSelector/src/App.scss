@@ -1,0 +1,14 @@
+.grid-container {
+  display: inline-grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+  padding: 10px;
+  :nth-child(n) {
+    background-color: black;
+    border: 1px solid white;
+    padding: 15px;
+    height: 15px;
+    width: 20px;
+    text-align: center;
+    cursor: pointer;
+  }
+}

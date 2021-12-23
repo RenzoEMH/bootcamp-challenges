@@ -1,0 +1,58 @@
+.descripcion {
+  margin-left: 12px;
+  .color__selector {
+    margin-top: 12px;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .colorBox {
+    width: 20px;
+    height: 20px;
+    margin: 0 10px;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 50%;
+  }
+  .colorBox--red {
+    background-color: #ff0000;
+  }
+  .colorBox--redActive {
+    background-color: #ff0000;
+    border: 5px solid black;
+  }
+
+  .colorBox--black {
+    background-color: #857878;
+  }
+  .colorBox--blackActive {
+    background-color: #857878;
+    border: 5px solid black;
+  }
+
+  .colorBox--green {
+    background-color: #00ff72;
+  }
+  .colorBox--greenActive {
+    background-color: #00ff72;
+    border: 5px solid black;
+  }
+
+  .colorBox--blue {
+    background-color: #1513a0;
+  }
+  .colorBox--blueActive {
+    background-color: #1513a0;
+    border: 5px solid black;
+  }
+
+  .btnLimpiar {
+    margin-left: 20px;
+    background-color: rgb(105, 42, 42);
+    color: white;
+    border-radius: 10%;
+    height: 40px;
+    width: 100px;
+  }
+}
