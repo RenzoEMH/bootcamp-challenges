@@ -2,9 +2,9 @@
 
 ## OPCIÓN 2:
 
-<img src='image/cuadriculaLimpia.png' width='500'/>
+<img src='image/cuadriculaLimpia.PNG' width='500'/>
 <hr>
-<img src='image/cuadricula.png' width='500'/>
+<img src='image/cuadricula.PNG' width='500'/>
 <hr>
 
 # PREGUNTAS:
