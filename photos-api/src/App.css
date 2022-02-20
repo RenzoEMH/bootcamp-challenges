@@ -1,0 +1,14 @@
+.App {
+  display: flex;
+  flex-flow: wrap row;
+  justify-content: center;
+  text-align: center;
+  margin-top: 10px;
+  column-gap: 10px;
+  font-size: 12px;
+}
+
+.card {
+  width: 150px;
+  height: auto;
+}
